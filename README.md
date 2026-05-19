@@ -1,14 +1,94 @@
-# Darrel Wihandi
+<h1 align="center">Darrel Wihandi</h1>
 
-**Software Engineering @ University of Waterloo**
+<p align="center">
+  <b>Software Engineering @ University of Waterloo</b>
+</p>
 
-I build AI Pipelines, compilers, ML tooling, and full-stack apps — mostly in **C++**, **Python**, and **TypeScript**.
+<p align="center">
+  I build AI pipelines, compilers, ML tooling, and full-stack systems.
+  <br/>
+  Mostly working with <b>C++</b>, <b>Python</b>, <b>TypeScript</b>, and <b>ML/AI infrastructure</b>.
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/darrel-wihandi/">LinkedIn</a>
   ·
   <a href="mailto:dfwihand@uwaterloo.ca">Email</a>
+  ·
+  <a href="https://darrelfw321.github.io/Flux/">Flux Demo</a>
+  ·
+  <a href="https://www.aerix5.com/">Aerix</a>
 </p>
+
+---
+
+## Featured work
+
+<table>
+<tr>
+<td width="50%">
+
+### [Flux](https://github.com/DarrelFW321/flux)
+
+C++17 · LLVM · WebAssembly · React · FastAPI
+
+DSL compiler and live pipeline visualizer for numerical kernels.
+
+- Lexer → parser → type checker → MIR → LLVM codegen
+- MIR optimizations: constant folding, loop fusion, DCE
+- WebAssembly frontend for AST, MIR, LLVM IR, and pass diffs
+- Benchmarks against `gcc -O2` C and NumPy
+
+<a href="https://darrelfw321.github.io/Flux/"><b>Try it in the browser →</b></a>
+
+</td>
+<td width="50%">
+
+### [Aerix](https://www.aerix5.com/)
+
+FastAPI · Next.js · PostgreSQL · Playwright · Gemini
+
+Prompt-to-API web scraping SaaS that turns a URL and plain-English prompt into a structured JSON endpoint.
+
+- Self-healing extraction with cached navigation plans
+- Automatic rediscovery when websites change
+- Validated across 1,000+ test endpoints
+
+<a href="https://www.aerix5.com/"><b>Check it out →</b></a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### [AI Knowledge Q&A](https://github.com/DarrelFW321/KnowledgeQA)
+
+Python · LangChain · FastAPI · Next.js · Qdrant · Ollama
+
+Full-stack RAG assistant with PDF/web ingestion and cited answers.
+
+- Semantic chunking and vector search
+- Cross-encoder re-ranking
+- Llama-3 via Ollama
+- Streaming chat UI and PDF source highlighting
+
+</td>
+<td width="50%">
+
+### [RISC-V Web Emulator](https://github.com/DarrelFW321/riscv-emulator)
+
+C++ · WebAssembly · JavaScript
+
+Browser-based RISC-V emulator with live registers and memory.
+
+- Step/run execution
+- Modular embind bindings for CPU ↔ UI sync
+- Used as a classroom learning tool
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -16,95 +96,121 @@ I build AI Pipelines, compilers, ML tooling, and full-stack apps — mostly in *
 
 ### [Slang](https://github.com/shader-slang/slang) · Khronos / NVIDIA
 
-Contributor to the **Slang** GPU shading compiler (SPIR-V, HLSL, WGSL, CUDA).
+Contributor to the **Slang GPU shading compiler** across SPIR-V, HLSL, WGSL, and CUDA backends.
 
-- Implemented **texture intrinsic** functions across backends
-- Added **validation / unit tests** for core compiler behavior
-
----
-
-## Projects
-
-### [Flux](https://github.com/DarrelFW321/flux) · C++17, LLVM, WebAssembly, React, FastAPI
-
-DSL compiler + **live pipeline visualizer** for numerical kernels.
-
-- Designed a statically typed language for fixed-size arrays, `sum` / `dot`, and loops
-- Full pipeline: lexer → parser → type checker → **FluxIR (MIR)** → **LLVM** native codegen
-- MIR optimizations: constant folding, algebraic simplification, **loop fusion**, DCE
-- **WebAssembly** frontend for in-browser tokens, AST, MIR (with per-pass diffs), and LLVM IR
-- **Benchmarks** page: fixed kernels (`dot`, `saxpy`, `relu`, `bigdot`) vs `gcc -O2` C and **NumPy**
-
-**[Try it in the browser](https://darrelfw321.github.io/Flux/)**
+- Implemented texture intrinsic functions across compiler backends
+- Added validation and unit tests for core compiler behavior
 
 ---
 
-### Aerix · FastAPI, Next.js, PostgreSQL, Playwright, Gemini
+## More projects
 
-Prompt-to-API web scraping SaaS — turn a URL + plain-English prompt into a live structured JSON endpoint.
+<details>
+<summary><b>Pepper</b> — bytecode interpreter and compiler in C</summary>
 
-- Self-healing extraction: cached navigation plans, rediscovery when sites change (~5–10s per run)
-- End-to-end validation across **1,000+** test endpoints
+<br/>
 
-**[Go here to check it out](https://www.aerix5.com/)**
+**Repo:** [github.com/DarrelFW321/pepper](https://github.com/DarrelFW321/pepper)
 
----
+Small dynamic language implementation with:
 
-### AI Knowledge Q&A · Python, LangChain, FastAPI, Next.js, Qdrant, Ollama
+- Stack-based virtual machine
+- Recursive-descent parser
+- Bytecode emitter
+- Closures and inheritance
+- Mark-and-sweep garbage collection
 
-Full-stack **RAG** assistant with PDF/web ingestion and cited answers.
+</details>
 
-- Semantic chunking, vector search (Qdrant), retrieval-aware prompting
-- **Llama-3** via Ollama, cross-encoder re-ranking, streaming chat UI
-- PDF viewer with inline source highlighting · **Docker Compose** stack
+<details>
+<summary><b>Cook Buddy</b> — voice-powered cooking assistant on edge hardware</summary>
 
-**Repo:** https://github.com/DarrelFW321/KnowledgeQA
+<br/>
 
----
+**Repo:** [github.com/DarrelFW321/cook-buddy](https://github.com/DarrelFW321/cook-buddy)
 
-### RISC-V Web Emulator · C++, WebAssembly, JavaScript
+Python · Flask · Socket.IO · LoRA
 
-Browser-based **RISC-V** emulator with live registers and memory.
+- Fine-tuned LLaMA-8B with Unsloth LoRA
+- Reduced training VRAM by around 40%
+- Low-latency Socket.IO bridge between Raspberry Pi and Flask server
+- Sensor-triggered prompts for step-by-step cooking assistance
 
-- Step/run execution, modular **embind** bindings for CPU ↔ UI sync
-- Used as a classroom learning tool (course-endorsed)
-
-*Repo:* https://github.com/DarrelFW321/riscv-emulator
-
----
-
-### Pepper · C
-
-Bytecode **interpreter + compiler** for a small dynamic language.
-
-- Stack VM, closures, inheritance, **mark-and-sweep** GC
-- Recursive-descent parser and bytecode emitter
-
-**Repo:** https://github.com/DarrelFW321/pepper 
+</details>
 
 ---
 
-### Cook Buddy · Python, Flask, Socket.IO, LoRA
+## Technical interests
 
-Voice-powered cooking assistant on edge hardware.
+<table>
+<tr>
+<td width="33%">
 
-- Fine-tuned **LLaMA-8B** with Unsloth LoRA (~40% lower VRAM in training)
-- Low-latency **Socket.IO** bridge (Raspberry Pi ↔ Flask server)
-- Sensor-triggered prompts (heat, motion) for step-by-step guidance
+### AI / ML
 
-**Repo:** https://github.com/DarrelFW321/cook-buddy 
+- RAG systems
+- LLM tooling
+- LoRA fine-tuning
+- Evaluation pipelines
+- Computer vision
+
+</td>
+<td width="33%">
+
+### Systems
+
+- Compilers
+- LLVM
+- C / C++
+- WebAssembly
+- RISC-V
+- CMake
+
+</td>
+<td width="33%">
+
+### Full-stack
+
+- React / Next.js
+- FastAPI
+- PostgreSQL
+- Docker
+- AWS
+- Kubernetes
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Stack I reach for often
+## Stack
 
-**Languages:** Python · C/C++ · TypeScript · Java · Rust · WebAssembly  
+<p>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-555555?style=flat&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat&logo=webassembly&logoColor=white" />
+</p>
 
-**ML / data:** PyTorch · LangChain · RAG · OpenCV · LoRA fine-tuning  
-
-**Systems / cloud:** LLVM · CMake · AWS · Kubernetes · Docker · FastAPI  
-
-**Web:** React · Next.js · PostgreSQL
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+</p>
 
 ---
 
+## GitHub activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=DarrelFW321&show_icons=true&hide_border=true&theme=transparent" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DarrelFW321&layout=compact&hide_border=true&theme=transparent" />
+</p>
