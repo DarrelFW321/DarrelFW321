@@ -110,58 +110,6 @@ Contributor to the Slang GPU shading compiler across SPIR-V, HLSL, WGSL, and CUD
 
 ---
 
-## More projects
-
-<details>
-<summary><b>RISC-V Web Emulator</b> — C++, WebAssembly, JavaScript</summary>
-
-<br/>
-
-Browser-based RISC-V emulator with live registers and memory.
-
-- Step/run execution
-- Modular embind bindings for CPU ↔ UI sync
-- Used as a classroom learning tool
-
-**Repo:** [github.com/DarrelFW321/riscv-emulator](https://github.com/DarrelFW321/riscv-emulator)
-
-</details>
-
-<details>
-<summary><b>Pepper</b> — bytecode interpreter and compiler in C</summary>
-
-<br/>
-
-Small dynamic language implementation.
-
-- Stack-based virtual machine
-- Recursive-descent parser
-- Bytecode emitter
-- Closures and inheritance
-- Mark-and-sweep garbage collection
-
-**Repo:** [github.com/DarrelFW321/pepper](https://github.com/DarrelFW321/pepper)
-
-</details>
-
-<details>
-<summary><b>Cook Buddy</b> — voice-powered cooking assistant on edge hardware</summary>
-
-<br/>
-
-**Python · Flask · Socket.IO · LoRA**
-
-- Fine-tuned LLaMA-8B with Unsloth LoRA
-- Reduced training VRAM by around 40%
-- Built a low-latency Socket.IO bridge between Raspberry Pi and Flask server
-- Added sensor-triggered prompts for step-by-step cooking assistance
-
-**Repo:** [github.com/DarrelFW321/cook-buddy](https://github.com/DarrelFW321/cook-buddy)
-
-</details>
-
----
-
 ## Stack
 
 <p>
