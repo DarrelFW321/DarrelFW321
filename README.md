@@ -71,7 +71,7 @@ Browser-based **RISC-V** emulator with live registers and memory.
 - Step/run execution, modular **embind** bindings for CPU ↔ UI sync
 - Used as a classroom learning tool (course-endorsed)
 
-*Repo:** https://github.com/DarrelFW321/riscv-emulator
+*Repo:* https://github.com/DarrelFW321/riscv-emulator
 
 ---
 
