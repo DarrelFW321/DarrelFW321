@@ -2,7 +2,7 @@
 
 **Software Engineering @ University of Waterloo**
 
-I build compilers, ML tooling, and full-stack apps — mostly in **C++**, **Python**, and **TypeScript**.
+I build AI Pipelines, compilers, ML tooling, and full-stack apps — mostly in **C++**, **Python**, and **TypeScript**.
 
 <p align="center">
   <a href="https://darrelfw321.github.io/Flux/"><strong>Flux live demo</strong></a>
