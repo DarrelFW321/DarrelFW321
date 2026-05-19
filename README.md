@@ -25,81 +25,87 @@
 ## Featured
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/DarrelFW321/flux">Flux</a>
-      </h3>
-      <p>
-        <b>C++17 · LLVM · WebAssembly · React · FastAPI</b>
-      </p>
-      <p>
-        DSL compiler and live pipeline visualizer for numerical kernels.
-      </p>
-      <ul>
-        <li>Designed a statically typed language for fixed-size arrays, <code>sum</code>, <code>dot</code>, and loops</li>
-        <li>Built lexer → parser → type checker → MIR → LLVM native codegen</li>
-        <li>Added MIR optimizations: constant folding, algebraic simplification, loop fusion, and DCE</li>
-        <li>Built a WebAssembly frontend for tokens, AST, MIR, per-pass diffs, and LLVM IR</li>
-      </ul>
-      <p>
-        <a href="https://darrelfw321.github.io/Flux/"><b>Try it in the browser →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://www.aerix5.com/">Aerix</a>
-      </h3>
-      <p>
-        <b>FastAPI · Next.js · PostgreSQL · Playwright · Gemini</b>
-      </p>
-      <p>
-        Prompt-to-API web scraping SaaS that turns a URL and plain-English prompt into a live structured JSON endpoint.
-      </p>
-      <ul>
-        <li>Built self-healing extraction with cached navigation plans</li>
-        <li>Added rediscovery when target websites change</li>
-        <li>Validated extraction behavior across 1,000+ test endpoints</li>
-      </ul>
-      <p>
-        <a href="https://www.aerix5.com/"><b>Check it out →</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/DarrelFW321/KnowledgeQA">AI Knowledge Q&A</a>
-      </h3>
-      <p>
-        <b>Python · LangChain · FastAPI · Next.js · Qdrant · Ollama</b>
-      </p>
-      <p>
-        Full-stack RAG assistant with PDF/web ingestion and cited answers.
-      </p>
-      <ul>
-        <li>Semantic chunking, vector search, and retrieval-aware prompting</li>
-        <li>Llama-3 via Ollama with cross-encoder re-ranking</li>
-        <li>Streaming chat UI with PDF source highlighting</li>
-        <li>Docker Compose stack for local deployment</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>
-        <a href="https://github.com/shader-slang/slang">Slang</a>
-      </h3>
-      <p>
-        <b>Khronos / NVIDIA · GPU shading compiler</b>
-      </p>
-      <p>
-        Contributor to the Slang GPU shading compiler across SPIR-V, HLSL, WGSL, and CUDA backends.
-      </p>
-      <ul>
-        <li>Implemented texture intrinsic functions across compiler backends</li>
-        <li>Added validation and unit tests for core compiler behavior</li>
-      </ul>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/DarrelFW321/flux"><strong>Flux</strong></a>  
+<br/>
+<sub><strong>C++17 · LLVM · WebAssembly · React · FastAPI</strong></sub>
+
+<br/><br/>
+
+DSL compiler and live pipeline visualizer for numerical kernels.
+
+<br/>
+
+- Designed a statically typed language for fixed-size arrays, `sum`, `dot`, and loops
+- Built lexer → parser → type checker → MIR → LLVM native codegen
+- Added MIR optimizations: constant folding, algebraic simplification, loop fusion, and DCE
+- Built a WebAssembly frontend for tokens, AST, MIR, per-pass diffs, and LLVM IR
+
+<br/>
+
+<a href="https://darrelfw321.github.io/Flux/"><strong>Try it in the browser →</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://www.aerix5.com/"><strong>Aerix</strong></a>  
+<br/>
+<sub><strong>FastAPI · Next.js · PostgreSQL · Playwright · Gemini</strong></sub>
+
+<br/><br/>
+
+Prompt-to-API web scraping SaaS that turns a URL and plain-English prompt into a live structured JSON endpoint.
+
+<br/>
+
+- Built self-healing extraction with cached navigation plans
+- Added rediscovery when target websites change
+- Validated extraction behavior across 1,000+ test endpoints
+
+<br/>
+
+<a href="https://www.aerix5.com/"><strong>Check it out →</strong></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/DarrelFW321/KnowledgeQA"><strong>AI Knowledge Q&A</strong></a>  
+<br/>
+<sub><strong>Python · LangChain · FastAPI · Next.js · Qdrant · Ollama</strong></sub>
+
+<br/><br/>
+
+Full-stack RAG assistant with PDF/web ingestion and cited answers.
+
+<br/>
+
+- Semantic chunking, vector search, and retrieval-aware prompting
+- Llama-3 via Ollama with cross-encoder re-ranking
+- Streaming chat UI with PDF source highlighting
+- Docker Compose stack for local deployment
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/shader-slang/slang"><strong>Slang</strong></a>  
+<br/>
+<sub><strong>Khronos / NVIDIA · GPU shading compiler</strong></sub>
+
+<br/><br/>
+
+Contributor to the Slang GPU shading compiler across SPIR-V, HLSL, WGSL, and CUDA backends.
+
+<br/>
+
+- Implemented texture intrinsic functions across compiler backends
+- Added validation and unit tests for core compiler behavior
+
+</td>
+</tr>
 </table>
 
 ---
