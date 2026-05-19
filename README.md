@@ -37,7 +37,7 @@ DSL compiler + **live pipeline visualizer** for numerical kernels.
 - **WebAssembly** frontend for in-browser tokens, AST, MIR (with per-pass diffs), and LLVM IR
 - **Benchmarks** page: fixed kernels (`dot`, `saxpy`, `relu`, `bigdot`) vs `gcc -O2` C and **NumPy**
 
-→ **[Try it in the browser](https://darrelfw321.github.io/Flux/)**
+**[Try it in the browser](https://darrelfw321.github.io/Flux/)**
 
 ---
 
@@ -48,8 +48,7 @@ Prompt-to-API web scraping SaaS — turn a URL + plain-English prompt into a liv
 - Self-healing extraction: cached navigation plans, rediscovery when sites change (~5–10s per run)
 - End-to-end validation across **1,000+** test endpoints
 
-<!-- Replace with your repo when public -->
-<!-- **Repo:** https://github.com/DarrelFW321/aerix -->
+**[Go here to check it out](https://www.aerix5.com/)**
 
 ---
 
@@ -61,7 +60,7 @@ Full-stack **RAG** assistant with PDF/web ingestion and cited answers.
 - **Llama-3** via Ollama, cross-encoder re-ranking, streaming chat UI
 - PDF viewer with inline source highlighting · **Docker Compose** stack
 
-<!-- **Repo:** https://github.com/DarrelFW321/your-rag-repo -->
+**Repo:** https://github.com/DarrelFW321/KnowledgeQA
 
 ---
 
@@ -72,7 +71,7 @@ Browser-based **RISC-V** emulator with live registers and memory.
 - Step/run execution, modular **embind** bindings for CPU ↔ UI sync
 - Used as a classroom learning tool (course-endorsed)
 
-<!-- **Repo:** https://github.com/DarrelFW321/your-riscv-repo -->
+*Repo:** https://github.com/DarrelFW321/riscv-emulator
 
 ---
 
@@ -83,7 +82,7 @@ Bytecode **interpreter + compiler** for a small dynamic language.
 - Stack VM, closures, inheritance, **mark-and-sweep** GC
 - Recursive-descent parser and bytecode emitter
 
-<!-- **Repo:** https://github.com/DarrelFW321/pepper -->
+**Repo:** https://github.com/DarrelFW321/pepper 
 
 ---
 
@@ -95,18 +94,7 @@ Voice-powered cooking assistant on edge hardware.
 - Low-latency **Socket.IO** bridge (Raspberry Pi ↔ Flask server)
 - Sensor-triggered prompts (heat, motion) for step-by-step guidance
 
-<!-- **Repo:** https://github.com/DarrelFW321/cook-buddy -->
-
----
-
-### DeltaHealth · Next.js, Python, Scikit-learn, Cohere
-
-**DeltaHacks XI** — symptom analysis + structured reports.
-
-- Scikit-learn models on medical datasets + **Cohere Command-R** for extraction/generation
-- Fast preprocessing and inference pipeline
-
-<!-- **Repo:** https://github.com/DarrelFW321/deltahealth -->
+**Repo:** https://github.com/DarrelFW321/cook-buddy 
 
 ---
 
