@@ -7,7 +7,7 @@
 <p align="center">
   I build AI pipelines, compilers, ML tooling, and full-stack systems.
   <br/>
-  Mostly working with <b>C++</b>, <b>Python</b>, <b>TypeScript</b>, and <b>ML/AI infrastructure</b>.
+  Mostly working with <b>C++</b>, <b>Python</b>, <b>TypeScript</b>, and AI infrastructure.
 </p>
 
 <p align="center">
@@ -22,73 +22,48 @@
 
 ---
 
-## Featured work
-
-<table>
-<tr>
-<td width="50%">
+## Featured
 
 ### [Flux](https://github.com/DarrelFW321/flux)
 
-C++17 · LLVM · WebAssembly · React · FastAPI
+**C++17 · LLVM · WebAssembly · React · FastAPI**
 
 DSL compiler and live pipeline visualizer for numerical kernels.
 
-- Lexer → parser → type checker → MIR → LLVM codegen
-- MIR optimizations: constant folding, loop fusion, DCE
-- WebAssembly frontend for AST, MIR, LLVM IR, and pass diffs
-- Benchmarks against `gcc -O2` C and NumPy
+- Designed a statically typed language for fixed-size arrays, `sum`, `dot`, and loops
+- Built the full compiler pipeline: lexer → parser → type checker → MIR → LLVM native codegen
+- Added MIR optimizations: constant folding, algebraic simplification, loop fusion, and DCE
+- Built a WebAssembly frontend for in-browser tokens, AST, MIR, per-pass diffs, and LLVM IR
+- Added benchmarks against `gcc -O2` C and NumPy
 
-<a href="https://darrelfw321.github.io/Flux/"><b>Try it in the browser →</b></a>
+**[Try it in the browser →](https://darrelfw321.github.io/Flux/)**
 
-</td>
-<td width="50%">
+---
 
 ### [Aerix](https://www.aerix5.com/)
 
-FastAPI · Next.js · PostgreSQL · Playwright · Gemini
+**FastAPI · Next.js · PostgreSQL · Playwright · Gemini**
 
-Prompt-to-API web scraping SaaS that turns a URL and plain-English prompt into a structured JSON endpoint.
+Prompt-to-API web scraping SaaS that turns a URL and plain-English prompt into a live structured JSON endpoint.
 
-- Self-healing extraction with cached navigation plans
-- Automatic rediscovery when websites change
-- Validated across 1,000+ test endpoints
+- Built self-healing extraction with cached navigation plans
+- Added rediscovery when target websites change
+- Validated extraction behavior across 1,000+ test endpoints
 
-<a href="https://www.aerix5.com/"><b>Check it out →</b></a>
+**[Check it out →](https://www.aerix5.com/)**
 
-</td>
-</tr>
-
-<tr>
-<td width="50%">
+---
 
 ### [AI Knowledge Q&A](https://github.com/DarrelFW321/KnowledgeQA)
 
-Python · LangChain · FastAPI · Next.js · Qdrant · Ollama
+**Python · LangChain · FastAPI · Next.js · Qdrant · Ollama**
 
 Full-stack RAG assistant with PDF/web ingestion and cited answers.
 
-- Semantic chunking and vector search
-- Cross-encoder re-ranking
-- Llama-3 via Ollama
-- Streaming chat UI and PDF source highlighting
-
-</td>
-<td width="50%">
-
-### [RISC-V Web Emulator](https://github.com/DarrelFW321/riscv-emulator)
-
-C++ · WebAssembly · JavaScript
-
-Browser-based RISC-V emulator with live registers and memory.
-
-- Step/run execution
-- Modular embind bindings for CPU ↔ UI sync
-- Used as a classroom learning tool
-
-</td>
-</tr>
-</table>
+- Semantic chunking, vector search, and retrieval-aware prompting
+- Llama-3 via Ollama with cross-encoder re-ranking
+- Streaming chat UI with PDF source highlighting
+- Docker Compose stack for local deployment
 
 ---
 
@@ -106,19 +81,34 @@ Contributor to the **Slang GPU shading compiler** across SPIR-V, HLSL, WGSL, and
 ## More projects
 
 <details>
+<summary><b>RISC-V Web Emulator</b> — C++, WebAssembly, JavaScript</summary>
+
+<br/>
+
+Browser-based RISC-V emulator with live registers and memory.
+
+- Step/run execution
+- Modular embind bindings for CPU ↔ UI sync
+- Used as a classroom learning tool
+
+**Repo:** [github.com/DarrelFW321/riscv-emulator](https://github.com/DarrelFW321/riscv-emulator)
+
+</details>
+
+<details>
 <summary><b>Pepper</b> — bytecode interpreter and compiler in C</summary>
 
 <br/>
 
-**Repo:** [github.com/DarrelFW321/pepper](https://github.com/DarrelFW321/pepper)
-
-Small dynamic language implementation with:
+Small dynamic language implementation.
 
 - Stack-based virtual machine
 - Recursive-descent parser
 - Bytecode emitter
 - Closures and inheritance
 - Mark-and-sweep garbage collection
+
+**Repo:** [github.com/DarrelFW321/pepper](https://github.com/DarrelFW321/pepper)
 
 </details>
 
@@ -127,60 +117,16 @@ Small dynamic language implementation with:
 
 <br/>
 
-**Repo:** [github.com/DarrelFW321/cook-buddy](https://github.com/DarrelFW321/cook-buddy)
-
-Python · Flask · Socket.IO · LoRA
+**Python · Flask · Socket.IO · LoRA**
 
 - Fine-tuned LLaMA-8B with Unsloth LoRA
 - Reduced training VRAM by around 40%
-- Low-latency Socket.IO bridge between Raspberry Pi and Flask server
-- Sensor-triggered prompts for step-by-step cooking assistance
+- Built a low-latency Socket.IO bridge between Raspberry Pi and Flask server
+- Added sensor-triggered prompts for step-by-step cooking assistance
+
+**Repo:** [github.com/DarrelFW321/cook-buddy](https://github.com/DarrelFW321/cook-buddy)
 
 </details>
-
----
-
-## Technical interests
-
-<table>
-<tr>
-<td width="33%">
-
-### AI / ML
-
-- RAG systems
-- LLM tooling
-- LoRA fine-tuning
-- Evaluation pipelines
-- Computer vision
-
-</td>
-<td width="33%">
-
-### Systems
-
-- Compilers
-- LLVM
-- C / C++
-- WebAssembly
-- RISC-V
-- CMake
-
-</td>
-<td width="33%">
-
-### Full-stack
-
-- React / Next.js
-- FastAPI
-- PostgreSQL
-- Docker
-- AWS
-- Kubernetes
-
-</td>
-</tr>
-</table>
 
 ---
 
