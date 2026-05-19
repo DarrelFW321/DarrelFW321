@@ -153,26 +153,3 @@ Small dynamic language implementation.
 </p>
 
 ---
-
-## GitHub activity
-
-## GitHub activity
-
-<p align="center">
-  <a href="https://github.com/DarrelFW321?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-DarrelFW321-181717?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://github.com/DarrelFW321?tab=stars">
-    <img src="https://img.shields.io/badge/Stars-GitHub-181717?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/DarrelFW321/flux">Flux</a>
-  ·
-  <a href="https://github.com/DarrelFW321/KnowledgeQA">KnowledgeQA</a>
-  ·
-  <a href="https://github.com/DarrelFW321/riscv-emulator">RISC-V Emulator</a>
-  ·
-  <a href="https://github.com/DarrelFW321/pepper">Pepper</a>
-</p>
