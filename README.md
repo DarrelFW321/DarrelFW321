@@ -122,6 +122,3 @@ Voice-powered cooking assistant on edge hardware.
 
 ---
 
-<p align="center">
-  <sub>⭐ Pin the repos you want recruiters to see first</sub>
-</p>
